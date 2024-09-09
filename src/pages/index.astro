@@ -1,0 +1,96 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+---
+
+<PageLayout metadata={{ title: 'Producción de Hortalizas en Nariño', description: 'Soluciones Propuestas para mejorar la producción de hortalizas en Nariño.' }}>
+  <section class="intro bg-gray-100 p-8 rounded-lg shadow-lg mb-8">
+    <h1 class="text-4xl font-extrabold text-gray-800 mb-4">Descripción y problemática</h1>
+    <p class="text-lg text-gray-700 mb-4">
+      La producción de hortalizas en Nariño enfrenta serios desafíos ambientales y económicos. El uso intensivo de fertilizantes químicos y empaques de plástico convencionales ha generado contaminación en suelos y fuentes de agua, afectando el entorno natural de la región. Además, los altos costos de estos insumos limitan a muchos pequeños productores.
+    </p>
+    <p class="text-lg text-gray-700 mb-4">
+      Para abordar estos desafíos, hemos desarrollado dos prototipos innovadores: un bioplástico y un abono orgánico. Estos prototipos están diseñados para ofrecer soluciones sostenibles que mejoren la producción y el manejo de los cultivos, al tiempo que promueven prácticas más respetuosas con el medio ambiente.
+    </p>
+  </section>
+
+  <!-- Centramos el título -->
+  <h2 id="soluciones" class="text-3xl font-bold mb-6 text-center">Soluciones Propuestas</h2>
+  
+  <!-- Añadimos padding a los laterales -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-12">
+    <!-- Información del Bioplástico -->
+    <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 transition-transform transform hover:scale-105">
+      <h2 class="text-2xl font-semibold text-gray-700 mb-4">Prototipo de Bioplástico</h2>
+      <img src="/plastico.jpg" alt="Prototipo de Bioplástico" class="w-full h-auto max-h-60 object-contain mb-4 rounded-lg shadow-sm" />
+      <p><strong>Materiales:</strong></p>
+      <ul class="list-disc ml-6 mb-8">
+        <li>Almidón de maíz (fécula de maíz)</li>
+        <li>Vinagre blanco</li>
+        <li>Glicerina</li>
+        <li>Agua</li>
+        <li>Cuchara de medir y tazas</li>
+        <li>Olla pequeña</li>
+        <li>Cuchara para mezclar</li>
+        <li>Papel encerado o bandeja plana para secar</li>
+        <li>Colorantes naturales (opcional)</li>
+      </ul>
+      <p><strong>Proporciones:</strong></p>
+      <ul class="list-disc ml-6 mb-4">
+        <li>1 cucharada de almidón de maíz</li>
+        <li>1 cucharada de glicerina</li>
+        <li>4 cucharadas de agua</li>
+        <li>1 cucharadita de vinagre blanco</li>
+      </ul>
+      <p><strong>Instrucciones:</strong></p>
+      <ol class="list-decimal ml-6 mb-4">
+        <li>Mezcla los ingredientes en una olla pequeña.</li>
+        <li>Calienta la mezcla a fuego bajo mientras revuelves constantemente.</li>
+        <li>Cuando la mezcla espese, viértela sobre papel encerado y deja que se seque por 24 a 48 horas.</li>
+      </ol>
+      <p class="mb-4"><strong>Aplicaciones:</strong> Envases biodegradables, prototipos para maquetas.</p>
+      <p><strong>Resultado final:</strong> Después del secado, obtendrás un bioplástico flexible o rígido, dependiendo de la cantidad de glicerina.</p>
+    </div>
+
+    <!-- Información del Abono Orgánico -->
+    <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 transition-transform transform hover:scale-105">
+      <h2 class="text-2xl font-semibold text-gray-700 mb-4">Prototipo de Abono Orgánico</h2>
+      <img src="/abono.jpg" alt="Prototipo de Abono Orgánico" class="w-full h-auto max-h-60 object-contain mb-4 rounded-lg shadow-sm" />
+      <p><strong>Ingredientes:</strong></p>
+      <ul class="list-disc ml-6 mb-4">
+        <li>Cal</li>
+        <li>Café</li>
+        <li>Tierra de monte</li>
+        <li>Estiércol de cuy</li>
+        <li>Fécula de maíz</li>
+        <li>Cáscara de huevo</li>
+      </ul>
+      <p><strong>Pasos para la elaboración del abono:</strong></p>
+      <ol class="list-decimal ml-6 mb-4">
+        <li>Recoge los ingredientes orgánicos, asegurándote de que estén secos y limpios.</li>
+        <li>Tritura la cáscara de huevo y mezcla todos los ingredientes.</li>
+        <li>Deja fermentar la mezcla durante unas semanas, volteándola ocasionalmente para mejorar la aireación.</li>
+        <li>Cuando la mezcla esté oscura y rica en nutrientes, está lista para ser usada como abono.</li>
+      </ol>
+      <p><strong>Beneficios:</strong></p>
+      <p class="mb-4">
+        Elaborado con desechos naturales, este abono mejora la fertilidad del suelo sin dañar el medio ambiente, ofreciendo una alternativa más económica y sostenible para los agricultores. Además, promueve el crecimiento de cultivos ricos en nutrientes y vitaminas, evitando el uso de fertilizantes químicos que contaminan el suelo y el agua. Esta solución no solo favorece la salud del ecosistema, sino también la de los consumidores, al fomentar la producción de alimentos más saludables y naturales.
+      </p>
+      <p><strong>Aplicación:</strong> Ideal para abonar hortalizas y otros cultivos, ayudando a preservar un ambiente más saludable para las personas y los animales.</p>
+    </div>
+  </div>
+
+  <!-- Créditos -->
+  <footer class="bg-gray-800 text-white py-4 mt-8">
+    <div class="container mx-auto text-center px-4">
+      <p class="mt-4">
+        Universidad Cooperativa de Colombia, Campus Pasto, Facultad de Ingeniería Industrial <br />
+        Estudiantes: <br />
+        Brayan Santiago Getial Ayala <br />
+        Juan David Acosta <br />
+        David Sebastián Calderon guerrero <br />
+        Andrés Felipe Córdoba Navisoy <br />
+        Cristian <br />
+      </p>
+    </div>
+  </footer>
+</PageLayout>
